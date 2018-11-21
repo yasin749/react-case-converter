@@ -1,8 +1,8 @@
 # React Case Converter
 
-Verilen metni cümle, başlık, büyük harf, küçük harf formatına dönüştürür.
+Verilen metni cümle, başlık, büyük harf, küçük harf formatlarına dönüştürür.
 
-https://yasin749.github.io/react-case-converter/public
+https://yasin749.github.io/react-case-converter/build
 
 Proje [create react app](https://github.com/facebook/create-react-app) ile açıldı.
 
