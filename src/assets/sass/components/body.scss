@@ -1,0 +1,109 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  background-color: $body-bg;
+  font-family: $font-family-base;
+  line-height: 1.4;
+  min-width: 320px;
+  position: relative;
+  z-index: 0;
+  margin: 0;
+  color: $font-color;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0 0 15px 0;
+}
+
+h2 {
+  font-size: 22px;
+  margin: 0 0 12px 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+
+h4 {
+  font-size: 19px;
+  margin: 0 0 9px 0;
+}
+
+h5 {
+  font-size: 18px;
+  margin: 0 0 8px 0;
+}
+
+h6 {
+  font-size: 17px;
+  margin: 0 0 7px 0;
+}
+
+a {
+  color: $link-color;
+  text-decoration: $link-decoration;
+  transition: $transition-base;
+  outline: 0;
+  cursor: pointer;
+  &:hover {
+    text-decoration: $link-decoration;
+    color: $link-hover-color;
+    transition: $transition-base;
+  }
+  &:focus {
+    outline: 0;
+  }
+}
+
+p, label {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0 0 0 25px;
+  li {
+  }
+}
+
+.adapt-link{
+  color: inherit;
+  text-decoration: none;
+  &:hover{
+    @extend a:hover;
+  }
+}
+
+.adapt-list {
+  // @todo flex?
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  > li {
+
+  }
+}
+
+.oneRow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.f-left {
+  float: left !important;
+}
+
+.f-right {
+  float: right !important;
+}

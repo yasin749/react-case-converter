@@ -1,0 +1,19 @@
+.card{
+  position: relative;
+  background: $white;
+
+  .card-body{
+    padding: 18px;
+  }
+  .card-body-medium{
+    padding: 28px;
+  }
+
+  &.shadow{
+    box-shadow: $box-shadow-base;
+  }
+
+  &.border{
+    border: 1px solid $gray-200;
+  }
+}
